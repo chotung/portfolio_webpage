@@ -1,0 +1,22 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html,
+body {
+	width: 100%;
+	height: 100%;
+	font-family: 'Tauri', sans-serif;
+}
+
+#app {
+	/* background: linear-gradient(to right, royalblue 50%, white 50%); */
+	position: relative;
+	margin: auto;
+	min-height: 100%;
+	display: grid;
+	grid-template-rows: auto 1fr auto;
+	grid-template-columns: 1fr;
+}
